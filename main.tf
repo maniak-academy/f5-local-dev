@@ -17,7 +17,7 @@ module "app" {
   vip_address  = "10.99.99.10"
   common_name  = "test.example.com"
   pki_name     = "example-dot-com"
-  pool_members = ["10.10.0.1", "10.10.0.2"]
+  pool_members = ["192.168.86.48", "192.168.86.21"]
 }
 
 provider "vault" {
