@@ -8,7 +8,7 @@
 # Crash log files
 crash.log
 f5-*
-
+app/as3-bigip.json
 # Ignore any .tfvars files that are generated automatically for each Terraform run. Most
 # .tfvars files are managed as part of configuration and so should be included in
 # version control.
@@ -21,7 +21,7 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-
+.terraform.lock.hcl
 # Include override files you do wish to add to version control using negated pattern
 #
 # !example_override.tf
