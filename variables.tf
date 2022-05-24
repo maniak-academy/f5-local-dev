@@ -14,4 +14,8 @@ variable "vault_token" {
   description = "vault token"
   default     = ""
 }
+variable "vaultaddress" {
+  description = "vault address"
+  default     = ""
+}
 

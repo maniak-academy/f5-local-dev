@@ -29,10 +29,7 @@
           "members": [{
             "servicePort": 80,
             "shareNodes": true,
-            "serverAddresses": [
-             "%{ for ip in mylist }${ip}
-             %{ endfor }"
-            ]
+            "serverAddresses": ${MY_POOLMEMBERS}
           }]
         },
         "webtls": {

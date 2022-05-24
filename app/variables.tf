@@ -1,4 +1,5 @@
-variable "default_instance_count" {
-  description = "bigipmgmt"
-  default     = "1"
-}
+variable "pool_members" {}
+variable "tenant" {}
+variable "vip_address" {}
+variable "common_name" {}
+variable "pki_name" {}

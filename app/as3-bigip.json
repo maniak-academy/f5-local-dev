@@ -15,7 +15,7 @@
         "service": {
           "class": "Service_HTTPS",
           "virtualAddresses": [
-             "10.99.10.10"
+             "10.99.99.10"
           ],
           "pool": "web_pool",
           "serverTLS": "webtls"
@@ -29,9 +29,7 @@
           "members": [{
             "servicePort": 80,
             "shareNodes": true,
-            "serverAddresses": [
-               "192.168.86.54"
-            ]
+            "serverAddresses": ["10.10.0.1","10.10.0.2"]
           }]
         },
         "webtls": {
